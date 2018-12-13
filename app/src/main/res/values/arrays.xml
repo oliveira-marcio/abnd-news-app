@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Categorias de notícias. Usado nas abas de seleção. -->
+    <string-array name="cattegory_labels">
+        <item>@string/category_android_label</item>
+        <item>@string/category_ios_label</item>
+        <item>@string/category_games_label</item>
+        <item>@string/category_apps_label</item>
+    </string-array>
+
+    <!--
+    Parâmetros da URL da Guardian API para filtrar os resultados por categorias de notícias (tags).
+    -->
+    <string-array name="cattegory_values">
+        <item>@string/category_android_value</item>
+        <item>@string/category_ios_value</item>
+        <item>@string/category_games_value</item>
+        <item>@string/category_apps_value</item>
+    </string-array>
+</resources>

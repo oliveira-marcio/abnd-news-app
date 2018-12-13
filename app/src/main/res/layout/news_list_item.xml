@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        style="@style/news_title_label"
+        tools:text="Título da notícia que pode ser muito grande, ocupar 2 linhas e ser necessário comprimir" />
+
+    <TextView
+        android:id="@+id/author_text_view"
+        style="@style/news_author_label"
+        tools:text="Nome do Autor" />
+
+    <TextView
+        android:id="@+id/date_text_view"
+        style="@style/news_date_label"
+        tools:text="28 set, 2016 4:00 PM" />
+
+</LinearLayout>

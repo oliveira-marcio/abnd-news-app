@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TECH News</string>
+
+    <!--
+    Nomes das diversas categorias de notícias e respectivas tags para serem utilizadas na URL da
+    Guardian API
+    -->
+    <string name="category_android_label">Android</string>
+    <string name="category_android_value" translatable="false">technology/android</string>
+
+    <string name="category_ios_label">IOS</string>
+    <string name="category_ios_value" translatable="false">technology/ios</string>
+
+    <string name="category_games_label">Games</string>
+    <string name="category_games_value" translatable="false">technology/games</string>
+
+    <string name="category_apps_label">Apps</string>
+    <string name="category_apps_value" translatable="false">technology/apps</string>
+
+    <!-- Mensagens diversas de erros de conexão -->
+    <string name="no_news">Nenhuma notícia encontrada.</string>
+    <string name="no_internet_connection">Não há conexão internet disponível.</string>
+</resources>
